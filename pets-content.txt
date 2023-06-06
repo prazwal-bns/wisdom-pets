@@ -1,0 +1,69 @@
+
+Use the instructions and content in this file along with the image in the '/images' folder to put together your website.
+
+====================================================
+
+
+1. Add an inline style attribute to our page’s body tag that gives the page a background-color of #DFDFDF, which is a light gray in hexadecimal code.
+
+2a. Replace the Bootstrap template's <h1> tag header text content with "Wisdom Pet Medicine"
+2b. Add a style attribute to that <h1> tag. Within that style attribute, add "color: #cdae51" to color the text a khaki color.
+2c. Bold this header text by either adding an additional tag around the text content or by adding a new rule within the style attribute. You can separate more than one rule in the inline style attribute with a semicolon ";" character.
+
+3a. Remove all the default text content from the Bare Bootstrap template below this, and add in an <h2> tag with the text, "We treat your pets like we treat our own."
+3b. Add inline styles to this tag with a rule for "font-size: 16pt"
+
+4a. Add an image tag with its src= pointing to the image within our /images folder, "all-animals.jpg". Remember that we can use the "./" notation before our folder structure to indicate that we're starting at the folder we're currently in.
+4b. Add an inline style to the image tag to make it's width at "100%".
+
+5a. Create a new paragraph <p> with a link inside (Reminder:`<a href=”#”></a>` format) wrapped around text, “Visit Us”.
+5b. Align this text center via inline styles, as well the rules, "padding-top:30px; color:#777777;"
+
+6a. Create a paragraph <p> of the following introduction text for your website.
+	"Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of health conditions in companion animals, including dogs, cats, birds, reptiles, rodents, and fish. We apply the latest healthcare technology, along with the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest and most effective treatments and cures, while maintaining a caring relationship with our patients and their guardians."
+6b. Give the paragraph the following styles, "text-align:justify; max-width:600px; margin:auto; padding-bottom:30px;"
+
+7a. Within the <div> that we did Chapter 2's Challenge in which is labeled with the "container" and "challenge" class attributes, place an <h3> header for, "REVIEWS"
+7b. Add styles to insure that it's aligned center, font size 16 point, and has top padding of "30px"
+
+8a. On the nested <div> with a class of "row", add "style='background-color:white;'" inside the tag.
+8b. On all 4 of the divs nested inside of class "row" div, add the same following inline styles, "border:5px solid #DFDFDF;background-color:white;padding:10px;"
+
+9a. Add the below text content into each of the 4 divs as specified.
+9b. The first line of each div's text content should be a bolded <h6> header, while each separated text block should be a paragraph.
+
+---------------------------
+<div> #1:
+	Thanks for helping our German Shorthair
+
+	During the summer, my German Shorthair Pointer, Tonto, began to have severe redness and itching on his belly and feet. Through diagnostic testing, we learned that Tonto is severely allergic to over a dozen kinds of grass pollens.
+
+	We’ve now been doing allergy injections for several months, and his itching and redness have nearly gone away. I’m very thankful to the veterinarians and staff at Wisdom for the excellent care Tonto received, and for nipping his allergies in the bud, so to speak.
+---------------------------
+
+---------------------------
+<div> #2:
+	Thanks to you, our diabetic kitty is better
+
+	When Samantha, our Siamese cat, began sleeping all the time and urinating excessively, we brought her to see the specialists at Wisdom. After running a blood test, Dr. Winthrop confirmed what we all feared – Samantha was showing signs of diabetes.
+
+	The doctor put us on a daily routine to give Samantha insulin injections, and showed us how to administer the shots. We weren’t sure we could do it on our own, but the gang at Wisdom helped us through every step, and were always very supportive and encouraging. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal. Thank you, Wisdom Pet Medicine!
+---------------------------
+
+---------------------------
+<div> #3:
+	How a dog antibiotic cured our fish
+
+	Wisdom Pet Medicine is the only clinic around that will even book pet fish for appointments. When our 13-year old goldfish, McAllister, turned from silvery white to an angry red, we called around, urgently trying to find a veterinarian who could help. Wisdom not only got us in the same day, but also was able to diagnose McAllister as having a severe case of septicemia.
+
+	In order to kill the harmful bacteria in his blood, we had to use a dog antibiotic in his tank every day for a week, and in the end, McAllister was good as new. I still smile upon remembering Dr. Chase pulling out an old vet school textbook to calculate the correct antibiotic dose for a fish!
+---------------------------
+
+---------------------------
+<div> #4:
+	Caring for Roxie, the grape-loving dog
+
+	The staff at Wisdom worked tirelessly to determine why our three-year old Labrador Retriever, Roxie, started going into sudden kidney failure. They stabilized her and provided fluids until her kidneys were again functioning normal, but it was still a mystery as to what caused her health to decline so quickly.
+
+	The vet noted our address on Roxie’s chart, and asked if we lived on one of the orchards in the vicinity, and if Roxie had a habit of eating grapes off the vine. Our answer was “of course – she’s a Labrador.” That day we learned just how toxic grapes and raisins are to pets, and Roxie is no longer allowed to roam unattended in the orchard.
+---------------------------
